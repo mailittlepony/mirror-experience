@@ -8,11 +8,11 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/mirror-experience/',
-  appType: 'spa',
-  build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-    chunkSizeWarningLimit: 1500
-  },
+    base: '/mirror-experience/',
+    appType: 'spa',
+    build: {
+        outDir: 'dist',
+        emptyOutDir: true,
+        chunkSizeWarningLimit: 1500
+    },
 })
